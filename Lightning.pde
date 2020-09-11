@@ -10,7 +10,7 @@ void setup()
   int centerX = (int)(Math.random() * 800);
   int centerY = (int)(Math.random() * 600) + 30;
   
-  circle(centerX,centerY, 2);
+  ellipse(centerX,centerY, 2,2);
 }
 }
 int counter = 0;
@@ -73,8 +73,6 @@ if(counter < numberOfStrikes) {
 void mousePressed() {
 
 }
-
-
 
 
 
