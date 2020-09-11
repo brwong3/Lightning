@@ -19,8 +19,8 @@ void draw() {
   int xCoordinates[] = new int[41];
   int yCoordinates[] = new int[41];
   
-if(counter < 3) {
-  for(int j = 0; j < 2; j++) {
+if(counter < 5) {
+  for(int j = 0; j < 1; j++) {
     for(int i = 0; i < 40; i++) {
       int randomizer = (int)(Math.random()*2);
       int xCoordinate = (int)(Math.random()*780) + 30;
