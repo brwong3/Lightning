@@ -19,11 +19,13 @@ void draw() {
   int xCoordinates[] = new int[41];
   int yCoordinates[] = new int[41];
   
-if(counter < 5) {
-  for(int j = 0; j < 3; j++) {
+  int numberOfStrikes = (int)(Math.random()*2) + 2; 
+  
+if(counter < numberOfStrikes) {
+  for(int j = 0; j < numberOfStrikes; j++) {
     for(int i = 0; i < 40; i++) {
       int randomizer = (int)(Math.random()*2);
-      int xCoordinate = (int)(Math.random()*700) + 50;
+      int xCoordinate = (int)(Math.random()*780) + 30;
       int yCoordinate = (int)(Math.random()*10) + 15;
       int xRandom = (int)(Math.random() * 15) + 5;
       int yRandom = (int)(Math.random() * 15) + 5;
@@ -71,6 +73,10 @@ if(counter < 5) {
 void mousePressed() {
 
 }
+
+
+
+
 
 
 
